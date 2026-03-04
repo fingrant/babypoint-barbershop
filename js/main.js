@@ -6,7 +6,7 @@
 // Update RESURVA_URL to the actual Resurva booking URL for the shop.
 // If Resurva supports per-staff booking via URL params (e.g. ?staff=liz),
 // the data-staff attribute on each button will be appended automatically.
-const RESURVA_URL = 'https://app.resurva.com/baby-point-barbershop/book';
+const RESURVA_URL = 'https://babypointbarbershop.resurva.com/book';
 
 // ---- DOM references ----
 const nav       = document.getElementById('nav');
