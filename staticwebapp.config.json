@@ -1,0 +1,13 @@
+{
+  "routes": [],
+  "navigationFallback": {
+    "rewrite": "/index.html",
+    "exclude": ["*.{html,css,js,png,jpg,jpeg,gif,svg,webp,PNG,JPG,ico,woff,woff2}", "/api/*"]
+  },
+  "globalHeaders": {
+    "cache-control": "must-revalidate, max-age=3600"
+  },
+  "mimeTypes": {
+    ".json": "application/json"
+  }
+}

@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Find The Baby Point Barbershop at 662 Annette St, Toronto, ON M6S 2C6. Opening hours, directions and contact form.">
+  <title>Find Us | The Baby Point Barbershop</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/animations.css">
+</head>
+<body>
+
+  <!-- ======================================== NAVIGATION ======================================== -->
+  <nav class="nav" id="nav" aria-label="Main navigation">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo" aria-label="The Baby Point Barbershop — Home">
+        <span class="nav-logo-the">THE</span>
+        <span class="nav-logo-name">Baby Point</span>
+        <span class="nav-logo-sub">BARBERSHOP</span>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks" role="list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Our Services</a></li>
+        <li><a href="barbers.html">Our Barbers</a></li>
+        <li><a href="find-us.html">Find Us</a></li>
+      </ul>
+      <a href="#" class="btn btn-gold nav-book" data-book aria-label="Book appointment">Book Now</a>
+    </div>
+  </nav>
+
+  <!-- ======================================== PAGE HERO ======================================== -->
+  <header class="page-hero">
+    <div class="container">
+      <span class="section-label">Location &amp; Contact</span>
+      <h1 class="page-hero-title">Find Us</h1>
+      <p class="page-hero-sub">
+        We're at 662 Annette St in Toronto's Baby Point neighbourhood.
+        Drop us a message below or book online.
+      </p>
+    </div>
+  </header>
+
+  <!-- ======================================== MAP + INFO ======================================== -->
+  <section class="section">
+    <div class="container">
+      <div class="find-us-grid">
+
+        <!-- Map -->
+        <div class="reveal-left">
+          <div class="map-embed">
+            <iframe
+              title="Baby Point Barbershop on Google Maps"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2885.356!2d-79.486617!3d43.659367!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b37a32ccee76f%3A0xd267bf0f04316389!2sThe%20Baby%20Point%20Barbershop!5e0!3m2!1sen!2sca!4v1709500000000!5m2!1sen!2sca"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+          <div class="appointment-note" style="margin-top: 16px;">
+            <strong style="color: var(--color-gold);">Heads up:</strong>
+            We are by appointment only — please book online before coming in. No walk-ins accepted.
+          </div>
+        </div>
+
+        <!-- Address, hours, social -->
+        <div class="reveal delay-2">
+
+          <div class="address-block">
+            <h4>Address</h4>
+            <p>
+              662 Annette St<br>
+              Toronto, ON M6S 2C6<br>
+              <a href="https://www.google.com/maps/place/The+Baby+Point+Barbershop/@43.6593668,-79.483791,17z" target="_blank" rel="noopener noreferrer" style="color: var(--color-teal); font-size: 0.85rem;">
+                Get Directions &rarr;
+              </a>
+            </p>
+          </div>
+
+          <div class="address-block">
+            <h4>Opening Hours</h4>
+            <table class="hours-table" aria-label="Opening hours">
+              <tbody>
+                <tr><td>Monday</td>   <td>11am – 7pm</td></tr>
+                <tr><td>Tuesday</td>  <td>11am – 7pm</td></tr>
+                <tr><td>Wednesday</td><td>11am – 7pm</td></tr>
+                <tr><td>Thursday</td> <td>11am – 7pm</td></tr>
+                <tr><td>Friday</td>   <td>11am – 7pm</td></tr>
+                <tr><td>Saturday</td> <td>10am – 5pm</td></tr>
+                <tr><td>Sunday</td>   <td class="closed">Closed</td></tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div class="address-block">
+            <h4>Follow Us</h4>
+            <div class="footer-social" style="margin-top: 4px;">
+              <a href="https://www.instagram.com/thebabypointbarbershop/" target="_blank" rel="noopener noreferrer">
+                Instagram @thebabypointbarbershop
+              </a>
+              <a href="https://www.facebook.com/BabyPointBarbershop/" target="_blank" rel="noopener noreferrer">
+                Facebook
+              </a>
+            </div>
+          </div>
+
+          <a href="#" class="btn btn-gold" data-book style="margin-top: 8px;">Book an Appointment</a>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================================== CONTACT FORM ======================================== -->
+  <section class="section contact-form-section" id="contact" aria-labelledby="contact-heading">
+    <div class="container">
+      <div class="text-center reveal" style="margin-bottom: 48px;">
+        <span class="section-label">Get In Touch</span>
+        <h2 class="section-title" id="contact-heading">Send Us a Message</h2>
+        <p class="section-subtitle">
+          Have a question? Use the form below. For bookings, please use our
+          <a href="#" data-book style="color: var(--color-teal); text-decoration: none; font-weight: 500;">online booking system</a> —
+          appointments are not made via email.
+        </p>
+      </div>
+
+      <form class="contact-form reveal" id="contactForm" novalidate aria-label="Contact form">
+        <div class="form-row">
+          <div class="form-group">
+            <label for="name">Full Name <span style="color: var(--color-teal);">*</span></label>
+            <input type="text" id="name" name="name" placeholder="Your name" required autocomplete="name">
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address <span style="color: var(--color-teal);">*</span></label>
+            <input type="email" id="email" name="email" placeholder="your@email.com" required autocomplete="email">
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="phone">Phone (optional)</label>
+            <input type="tel" id="phone" name="phone" placeholder="(416) 000-0000" autocomplete="tel">
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <select id="subject" name="subject">
+              <option value="General Enquiry">General Enquiry</option>
+              <option value="Gift Cards">Gift Cards</option>
+              <option value="Feedback">Feedback</option>
+              <option value="Other">Other</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="message">Message <span style="color: var(--color-teal);">*</span></label>
+          <textarea id="message" name="message" placeholder="How can we help?" required></textarea>
+        </div>
+        <div class="form-submit">
+          <button type="submit" class="btn btn-gold">Send Message</button>
+        </div>
+        <div class="form-message" id="formMessage" role="alert" aria-live="polite"></div>
+      </form>
+    </div>
+  </section>
+
+  <!-- ======================================== FOOTER ======================================== -->
+  <footer class="footer" aria-label="Site footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-logo">
+            <span class="nav-logo-the">THE</span>
+            <span class="nav-logo-name">Baby Point</span>
+            <span class="nav-logo-sub">BARBERSHOP</span>
+          </div>
+          <p class="footer-tagline">Premium barbering in the heart of Baby Point, Toronto. No walk-ins. By appointment only.</p>
+        </div>
+        <div>
+          <h4 class="footer-heading">Opening Hours</h4>
+          <ul class="footer-hours">
+            <li><span>Mon – Fri</span><span>11am – 7pm</span></li>
+            <li><span>Saturday</span><span>10am – 5pm</span></li>
+            <li><span>Sunday</span><span>Closed</span></li>
+          </ul>
+          <p class="footer-note">By Appointment Only</p>
+        </div>
+        <div>
+          <h4 class="footer-heading">Find Us</h4>
+          <p class="footer-address">662 Annette St<br>Toronto, ON M6S 2C6</p>
+          <div class="footer-social">
+            <a href="https://www.instagram.com/thebabypointbarbershop/" target="_blank" rel="noopener noreferrer">Instagram</a>
+            <a href="https://www.facebook.com/BabyPointBarbershop/" target="_blank" rel="noopener noreferrer">Facebook</a>
+          </div>
+        </div>
+        <div class="footer-cta-col">
+          <a href="#" class="btn btn-gold" data-book>Book Now</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 The Baby Point Barbershop. All rights reserved.</p>
+        <p>662 Annette St, Toronto, ON M6S 2C6</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/animations.js"></script>
+</body>
+</html>

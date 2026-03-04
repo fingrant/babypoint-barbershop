@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Services and pricing at The Baby Point Barbershop — haircuts, hot towel shaves, beard trims and more. By appointment only.">
+  <title>Our Services | The Baby Point Barbershop</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/animations.css">
+</head>
+<body>
+
+  <!-- ======================================== NAVIGATION ======================================== -->
+  <nav class="nav" id="nav" aria-label="Main navigation">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo" aria-label="The Baby Point Barbershop — Home">
+        <span class="nav-logo-the">THE</span>
+        <span class="nav-logo-name">Baby Point</span>
+        <span class="nav-logo-sub">BARBERSHOP</span>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks" role="list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Our Services</a></li>
+        <li><a href="barbers.html">Our Barbers</a></li>
+        <li><a href="find-us.html">Find Us</a></li>
+      </ul>
+      <a href="#" class="btn btn-gold nav-book" data-book aria-label="Book appointment">Book Now</a>
+    </div>
+  </nav>
+
+  <!-- ======================================== PAGE HERO ======================================== -->
+  <header class="page-hero">
+    <div class="container">
+      <span class="section-label">What We Offer</span>
+      <h1 class="page-hero-title">Our Services</h1>
+      <p class="page-hero-sub">
+        Every service is performed with precision and care by an experienced barber.
+        No rushing. No compromises.
+      </p>
+    </div>
+  </header>
+
+  <!-- ======================================== NOTICES ======================================== -->
+  <section class="section-sm">
+    <div class="container">
+      <div class="notice-banner reveal">
+        <span class="notice-icon" aria-hidden="true">ℹ️</span>
+        <span>
+          <strong style="color: var(--color-text);">By appointment only</strong> — we do not accept walk-ins.
+          All prices include applicable taxes. Cash &amp; credit cards accepted.
+          Children must be able to sit alone unassisted.
+        </span>
+      </div>
+
+      <!-- Services grid — all 6 services -->
+      <div class="services-grid-full">
+
+        <!-- 1. Haircut -->
+        <div class="service-card reveal delay-1">
+          <div class="service-icon" aria-hidden="true">✂️</div>
+          <div class="service-name">Haircut</div>
+          <p class="service-desc">
+            Haircut and styling. Includes a straight razor shave of the back of the neck
+            for a clean, polished finish.
+          </p>
+          <div class="service-meta">
+            <span class="service-price">$45</span>
+            <span class="service-duration">30 – 40 min</span>
+          </div>
+        </div>
+
+        <!-- 2. Children's Haircut -->
+        <div class="service-card reveal delay-2">
+          <div class="service-icon" aria-hidden="true">👦</div>
+          <div class="service-name">Children's Haircut<br><small style="font-size: 0.75em; font-weight: 400; color: var(--color-muted);">Under 12</small></div>
+          <p class="service-desc">
+            Same quality cut as our adult haircut, tailored for children.
+            Please note: children must be able to sit alone unassisted.
+          </p>
+          <div class="service-meta">
+            <span class="service-price">$45</span>
+            <span class="service-duration">30 – 40 min</span>
+          </div>
+        </div>
+
+        <!-- 3. Haircut with Beard Trim (no hot towel) -->
+        <div class="service-card reveal delay-3">
+          <div class="service-icon" aria-hidden="true">✂️🧔</div>
+          <div class="service-name">Haircut &amp; Beard Trim</div>
+          <p class="service-desc">
+            Haircut paired with a beard trim service. Please note this does <em>not</em> include
+            a reclined hot towel straight razor shave — all beard hair is removed by machine only.
+          </p>
+          <div class="service-meta">
+            <span class="service-price">$55</span>
+            <span class="service-duration">30 – 40 min</span>
+          </div>
+        </div>
+
+        <!-- 4. Beard Trim with Hot Towel Shave -->
+        <div class="service-card featured reveal delay-1">
+          <div class="service-icon" aria-hidden="true">🪒</div>
+          <div class="service-name">Beard Trim &amp; Hot Towel Shave</div>
+          <p class="service-desc">
+            Grooming of the beard followed by a reclined hot towel, straight razor shave
+            of the neck and cheek line. A relaxing, full grooming experience.
+          </p>
+          <div class="service-meta">
+            <span class="service-price">$45</span>
+            <span class="service-duration">30 – 40 min</span>
+          </div>
+        </div>
+
+        <!-- 5. Full Face Shave -->
+        <div class="service-card reveal delay-2">
+          <div class="service-icon" aria-hidden="true">🫧</div>
+          <div class="service-name">Full Face Shave</div>
+          <p class="service-desc">
+            A reclined full face straight razor shave with soothing hot towels applied
+            throughout. The classic barbershop experience, perfected.
+          </p>
+          <div class="service-meta">
+            <span class="service-price">$45</span>
+            <span class="service-duration">30 – 40 min</span>
+          </div>
+        </div>
+
+        <!-- 6. Haircut and Beard Trim with Shave -->
+        <div class="service-card reveal delay-3">
+          <div class="service-icon" aria-hidden="true">⭐</div>
+          <div class="service-name">Haircut &amp; Beard Trim with Shave</div>
+          <p class="service-desc">
+            The ultimate treatment. A full haircut, beard trim, and hot towel straight razor
+            shave — a complete hour-plus of premium barbershop service.
+          </p>
+          <div class="service-meta">
+            <span class="service-price">$90</span>
+            <span class="service-duration">1h – 1h 20m</span>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Book CTA below services -->
+      <div class="text-center reveal" style="margin-top: 56px;">
+        <p style="color: var(--color-muted); margin-bottom: 24px; font-size: 0.95rem;">
+          Ready to book? Choose a service and your preferred barber online.
+        </p>
+        <a href="#" class="btn btn-gold" data-book>Book Your Appointment</a>
+        &nbsp;&nbsp;
+        <a href="barbers.html" class="btn btn-outline-teal">Choose Your Barber First</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================================== INFO STRIP ======================================== -->
+  <div style="background: var(--color-surface); border-top: 1px solid var(--color-border); border-bottom: 1px solid var(--color-border); padding: 48px 0;">
+    <div class="container">
+      <div class="stats-grid">
+        <div class="reveal text-center">
+          <span class="stat-number" style="color: var(--color-gold);">Cash</span>
+          <span class="stat-label">Accepted</span>
+        </div>
+        <div class="reveal delay-1 text-center">
+          <span class="stat-number" style="color: var(--color-gold);">Visa</span>
+          <span class="stat-label">Accepted</span>
+        </div>
+        <div class="reveal delay-2 text-center">
+          <span class="stat-number" style="font-size: 1.8rem;">Appt</span>
+          <span class="stat-label">Only — No Walk-ins</span>
+        </div>
+        <div class="reveal delay-3 text-center">
+          <span class="stat-number" style="font-size: 1.8rem;" data-count="8">8</span>
+          <span class="stat-label">Barbers to Choose From</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ======================================== FOOTER ======================================== -->
+  <footer class="footer" aria-label="Site footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-logo">
+            <span class="nav-logo-the">THE</span>
+            <span class="nav-logo-name">Baby Point</span>
+            <span class="nav-logo-sub">BARBERSHOP</span>
+          </div>
+          <p class="footer-tagline">Premium barbering in the heart of Baby Point, Toronto. No walk-ins. By appointment only.</p>
+        </div>
+        <div>
+          <h4 class="footer-heading">Opening Hours</h4>
+          <ul class="footer-hours">
+            <li><span>Mon – Fri</span><span>11am – 7pm</span></li>
+            <li><span>Saturday</span><span>10am – 5pm</span></li>
+            <li><span>Sunday</span><span>Closed</span></li>
+          </ul>
+          <p class="footer-note">By Appointment Only</p>
+        </div>
+        <div>
+          <h4 class="footer-heading">Find Us</h4>
+          <p class="footer-address">662 Annette St<br>Toronto, ON M6S 2C6</p>
+          <div class="footer-social">
+            <a href="https://www.instagram.com/thebabypointbarbershop/" target="_blank" rel="noopener noreferrer">Instagram</a>
+            <a href="https://www.facebook.com/BabyPointBarbershop/" target="_blank" rel="noopener noreferrer">Facebook</a>
+          </div>
+        </div>
+        <div class="footer-cta-col">
+          <a href="#" class="btn btn-gold" data-book>Book Now</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 The Baby Point Barbershop. All rights reserved.</p>
+        <p>662 Annette St, Toronto, ON M6S 2C6</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/animations.js"></script>
+</body>
+</html>

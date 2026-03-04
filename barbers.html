@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Meet the barbers at The Baby Point Barbershop — book directly with Liz, William, Jesse, Alex, Nerv, Paddy, Paul or Kenya.">
+  <title>Our Barbers | The Baby Point Barbershop</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/animations.css">
+</head>
+<body>
+
+  <!-- ======================================== NAVIGATION ======================================== -->
+  <nav class="nav" id="nav" aria-label="Main navigation">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo" aria-label="The Baby Point Barbershop — Home">
+        <span class="nav-logo-the">THE</span>
+        <span class="nav-logo-name">Baby Point</span>
+        <span class="nav-logo-sub">BARBERSHOP</span>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks" role="list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Our Services</a></li>
+        <li><a href="barbers.html">Our Barbers</a></li>
+        <li><a href="find-us.html">Find Us</a></li>
+      </ul>
+      <a href="#" class="btn btn-gold nav-book" data-book aria-label="Book appointment">Book Now</a>
+    </div>
+  </nav>
+
+  <!-- ======================================== PAGE HERO ======================================== -->
+  <header class="page-hero">
+    <div class="container">
+      <span class="section-label">The Team</span>
+      <h1 class="page-hero-title">Our Barbers</h1>
+      <p class="page-hero-sub">
+        Eight skilled professionals. One great shop. Book directly with
+        the barber you trust — right here, right now.
+      </p>
+    </div>
+  </header>
+
+  <!-- ======================================== BARBERS INTRO NOTE ======================================== -->
+  <section class="section-sm">
+    <div class="container">
+      <div class="notice-banner reveal">
+        <span class="notice-icon" aria-hidden="true">📅</span>
+        <span>
+          Click <strong style="color: var(--color-text);">"Book with [Name]"</strong> on any barber card
+          to open our online booking system. You can select your preferred service, date, and time directly.
+          All bookings are by appointment only — no walk-ins.
+        </span>
+      </div>
+
+      <!-- ===== 4-column barbers grid ===== -->
+      <div class="barbers-grid-4">
+
+        <!-- 1. Liz -->
+        <article class="barber-card reveal delay-1" aria-label="Liz — The Precision Artist">
+          <div class="barber-avatar" style="background: linear-gradient(135deg, #5BC8C8, #E6B84A);" aria-hidden="true">L</div>
+          <div class="barber-name">Liz</div>
+          <div class="barber-tagline">The Precision Artist</div>
+          <p class="barber-bio">
+            With a meticulous eye for clean lines and creative styling, Liz brings both artistry
+            and precision to every cut. Known for her relaxed chair-side manner and expert fades,
+            she's earned a loyal following that books weeks in advance.
+          </p>
+          <a href="#" class="btn btn-gold barber-book-btn" data-book data-staff="liz" aria-label="Book appointment with Liz">
+            Book with Liz
+          </a>
+        </article>
+
+        <!-- 2. William -->
+        <article class="barber-card reveal delay-2" aria-label="William — The Classic Craftsman">
+          <div class="barber-avatar" style="background: linear-gradient(135deg, #1d4ed8, #5BC8C8);" aria-hidden="true">W</div>
+          <div class="barber-name">William</div>
+          <div class="barber-tagline">The Classic Craftsman</div>
+          <p class="barber-bio">
+            William's approach honours old-school barbering tradition while embracing modern technique.
+            A master of the straight razor and hot towel experience, he delivers a premium service
+            from the first snip to the final flourish.
+          </p>
+          <a href="#" class="btn btn-gold barber-book-btn" data-book data-staff="william" aria-label="Book appointment with William">
+            Book with William
+          </a>
+        </article>
+
+        <!-- 3. Jesse -->
+        <article class="barber-card reveal delay-3" aria-label="Jesse — The Fade Specialist">
+          <div class="barber-avatar" style="background: linear-gradient(135deg, #E6B84A, #e87040);" aria-hidden="true">J</div>
+          <div class="barber-name">Jesse</div>
+          <div class="barber-tagline">The Fade Specialist</div>
+          <p class="barber-bio">
+            Jesse's fades are practically legendary in the Baby Point neighbourhood. His technical
+            precision and eye for detail turn every cut into a statement. Whether it's a skin fade
+            or a natural taper, Jesse executes with confidence and consistency.
+          </p>
+          <a href="#" class="btn btn-gold barber-book-btn" data-book data-staff="jesse" aria-label="Book appointment with Jesse">
+            Book with Jesse
+          </a>
+        </article>
+
+        <!-- 4. Alex -->
+        <article class="barber-card reveal delay-4" aria-label="Alex — The Versatile Stylist">
+          <div class="barber-avatar" style="background: linear-gradient(135deg, #5BC8C8, #22c55e);" aria-hidden="true">A</div>
+          <div class="barber-name">Alex</div>
+          <div class="barber-tagline">The Versatile Stylist</div>
+          <p class="barber-bio">
+            Alex's range is his superpower. From classic barbershop cuts to contemporary trends,
+            he adapts effortlessly to every client's vision. Regulars return for his steady hand
+            and the easy conversation that makes an hour in the chair fly by.
+          </p>
+          <a href="#" class="btn btn-gold barber-book-btn" data-book data-staff="alex" aria-label="Book appointment with Alex">
+            Book with Alex
+          </a>
+        </article>
+
+        <!-- 5. Nerv -->
+        <article class="barber-card reveal delay-1" aria-label="Nerv — The Detail Master">
+          <div class="barber-avatar" style="background: linear-gradient(135deg, #8b5cf6, #5BC8C8);" aria-hidden="true">N</div>
+          <div class="barber-name">Nerv</div>
+          <div class="barber-tagline">The Detail Master</div>
+          <p class="barber-bio">
+            Patience and precision define Nerv's work. He approaches each client methodically,
+            ensuring every edge is crisp and every line deliberate. If you're someone who notices
+            the difference between good and perfect, Nerv is your barber.
+          </p>
+          <a href="#" class="btn btn-gold barber-book-btn" data-book data-staff="nerv" aria-label="Book appointment with Nerv">
+            Book with Nerv
+          </a>
+        </article>
+
+        <!-- 6. Paddy -->
+        <article class="barber-card reveal delay-2" aria-label="Paddy — The Beard Whisperer">
+          <div class="barber-avatar" style="background: linear-gradient(135deg, #dc2626, #E6B84A);" aria-hidden="true">P</div>
+          <div class="barber-name">Paddy</div>
+          <div class="barber-tagline">The Beard Whisperer</div>
+          <p class="barber-bio">
+            Nobody understands beard architecture quite like Paddy. Whether it's a full grooming
+            session with hot towels and a straight razor shave, or a simple shape-up before a big
+            meeting, Paddy leaves every client looking polished and composed.
+          </p>
+          <a href="#" class="btn btn-gold barber-book-btn" data-book data-staff="paddy" aria-label="Book appointment with Paddy">
+            Book with Paddy
+          </a>
+        </article>
+
+        <!-- 7. Paul -->
+        <article class="barber-card reveal delay-3" aria-label="Paul — The Smooth Operator">
+          <div class="barber-avatar" style="background: linear-gradient(135deg, #0ea5e9, #1d4ed8);" aria-hidden="true">P</div>
+          <div class="barber-name">Paul</div>
+          <div class="barber-tagline">The Smooth Operator</div>
+          <p class="barber-bio">
+            Paul's calm demeanour and steady hand make him the go-to for hot towel shaves and
+            full face treatments. A true straight-razor specialist, he's converted skeptics into
+            regulars after a single session. Sit back, relax, and let Paul work.
+          </p>
+          <a href="#" class="btn btn-gold barber-book-btn" data-book data-staff="paul" aria-label="Book appointment with Paul">
+            Book with Paul
+          </a>
+        </article>
+
+        <!-- 8. Kenya -->
+        <article class="barber-card reveal delay-4" aria-label="Kenya — The Modern Visionary">
+          <div class="barber-avatar" style="background: linear-gradient(135deg, #E6B84A, #92400e);" aria-hidden="true">K</div>
+          <div class="barber-name">Kenya</div>
+          <div class="barber-tagline">The Modern Visionary</div>
+          <p class="barber-bio">
+            Kenya brings fresh perspective and contemporary flair to the craft. Equally at home
+            with textured crops, afro styles, and classic tapers, he's the barber for clients who
+            want something a little more distinctive. Book early — his chair fills fast.
+          </p>
+          <a href="#" class="btn btn-gold barber-book-btn" data-book data-staff="kenya" aria-label="Book appointment with Kenya">
+            Book with Kenya
+          </a>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================================== HOW BOOKING WORKS ======================================== -->
+  <section class="section" style="background: var(--color-surface); border-top: 1px solid var(--color-border); border-bottom: 1px solid var(--color-border);">
+    <div class="container">
+      <div class="text-center reveal">
+        <span class="section-label">How It Works</span>
+        <h2 class="section-title">Booking Is Easy</h2>
+        <p class="section-subtitle">Three steps to your perfect cut.</p>
+      </div>
+      <div class="services-grid" style="margin-top: 48px;">
+        <div class="service-card reveal delay-1">
+          <div class="service-icon" aria-hidden="true">👤</div>
+          <div class="service-name">1. Choose Your Barber</div>
+          <p class="service-desc">
+            Pick the barber you want from the profiles above. Each "Book with [Name]" button
+            takes you directly to their availability in our booking system.
+          </p>
+        </div>
+        <div class="service-card featured reveal delay-2">
+          <div class="service-icon" aria-hidden="true">📅</div>
+          <div class="service-name">2. Pick a Time</div>
+          <p class="service-desc">
+            Browse available slots for your chosen barber and select the date and time
+            that works best for you.
+          </p>
+        </div>
+        <div class="service-card reveal delay-3">
+          <div class="service-icon" aria-hidden="true">✅</div>
+          <div class="service-name">3. You're Confirmed</div>
+          <p class="service-desc">
+            You'll receive a confirmation. Show up at 662 Annette St at your time —
+            your barber will be ready for you.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================================== CTA BAND ======================================== -->
+  <div class="cta-band reveal-scale">
+    <div class="container">
+      <h2 class="section-title">Not Sure Who to Book With?</h2>
+      <p>Any barber on our team will give you an exceptional cut. Just pick one — you won't be disappointed.</p>
+      <a href="#" class="btn btn-dark" data-book>Book with Any Barber</a>
+    </div>
+  </div>
+
+  <!-- ======================================== FOOTER ======================================== -->
+  <footer class="footer" aria-label="Site footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-logo">
+            <span class="nav-logo-the">THE</span>
+            <span class="nav-logo-name">Baby Point</span>
+            <span class="nav-logo-sub">BARBERSHOP</span>
+          </div>
+          <p class="footer-tagline">Premium barbering in the heart of Baby Point, Toronto. No walk-ins. By appointment only.</p>
+        </div>
+        <div>
+          <h4 class="footer-heading">Opening Hours</h4>
+          <ul class="footer-hours">
+            <li><span>Mon – Fri</span><span>11am – 7pm</span></li>
+            <li><span>Saturday</span><span>10am – 5pm</span></li>
+            <li><span>Sunday</span><span>Closed</span></li>
+          </ul>
+          <p class="footer-note">By Appointment Only</p>
+        </div>
+        <div>
+          <h4 class="footer-heading">Find Us</h4>
+          <p class="footer-address">662 Annette St<br>Toronto, ON M6S 2C6</p>
+          <div class="footer-social">
+            <a href="https://www.instagram.com/thebabypointbarbershop/" target="_blank" rel="noopener noreferrer">Instagram</a>
+            <a href="https://www.facebook.com/BabyPointBarbershop/" target="_blank" rel="noopener noreferrer">Facebook</a>
+          </div>
+        </div>
+        <div class="footer-cta-col">
+          <a href="#" class="btn btn-gold" data-book>Book Now</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 The Baby Point Barbershop. All rights reserved.</p>
+        <p>662 Annette St, Toronto, ON M6S 2C6</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/animations.js"></script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+{
+  "name": "baby-point-barbershop-api",
+  "version": "1.0.0",
+  "description": "Azure Function API for Baby Point Barbershop contact form",
+  "scripts": {
+    "start": "func start"
+  },
+  "dependencies": {
+    "@azure/communication-email": "^1.0.0"
+  }
+}
